@@ -10,6 +10,12 @@
 
 		<!--标准mui.css-->
 		<link rel="stylesheet" href="css/mui.min.css">
+		<!--
+        	作者：294096580@qq.com
+        	时间：2017-12-04
+        	描述：添加字体库
+        -->
+		<link rel="stylesheet" href="fonts/iconfont.css">
 		<!--App自定义的css-->
 		<!--<link rel="stylesheet" type="text/css" href="../css/app.css"/>-->
 	</head>
@@ -17,23 +23,37 @@
 	<body>
 
 		<header class="mui-bar mui-bar-nav">
-		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
-		    <h1 class="mui-title">工具箱</h1>
+			<h1 class="mui-title">工具箱</h1>
 		</header>
 		<div class="mui-content">
-		        <ul class="mui-table-view mui-grid-view mui-grid-9">
-		          
-		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-		                    <span class="mui-icon mui-icon-email"><span class="mui-badge">5</span></span>
-		                    <div class="mui-media-body">小DAO消息</div></a></li>
-		           
-		        </ul> 
+			<ul class="mui-table-view mui-grid-view mui-grid-9">
+
+				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+					<a href="view/message/list.html">
+						<i class="mui-icon iconfont icon-message"><span class="mui-badge">0</span></i>
+						<div class="mui-media-body">小DAO消息</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+					<a href="view/feedback/feedback.html">
+						<i class="mui-icon iconfont icon-jianliyulan_qiwanggongzuo"></i>
+						<div class="mui-media-body">建议期望</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+					<a class="mui-action-back">
+						<i class="mui-icon iconfont icon-likaijichang-"></i>
+						<div class="mui-media-body">我要离开</div>
+					</a>
+				</li>
+			</ul>
 		</div>
 	</body>
 	<script src="js/mui.min.js"></script>
 	<script>
 		mui.init({
-			swipeBack:true //启用右滑关闭功能
+			swipeBack: true //启用右滑关闭功能
 		});
 	</script>
+
 </html>

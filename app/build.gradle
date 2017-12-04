@@ -35,4 +35,6 @@ dependencies {
     implementation files('libs/nopermission.jar')
     implementation files('libs/pdr.jar')
     implementation files('libs/ui.jar')
+    implementation files('libs/device.jar')
+    implementation files('libs/uploader.jar')
 }
